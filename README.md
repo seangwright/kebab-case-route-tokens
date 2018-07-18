@@ -39,7 +39,7 @@ If you prefer kebab-case over PascalCase for your urls and you want to use the `
 
 In your `Startup.cs` add the Convention classes to your `MvcOptions.Conventions` collection.
 
-```chsarp
+```csharp
 public class Startup
 {
     public void ConfigureServices(IServiceCollection services)
