@@ -20,9 +20,9 @@ public class UserRegistrationController
     }
 
     [HttpGet]
-    [ActionName("Test")]
+    [ActionName("TestIt")]
     [Route("[action]")]
-    public ActionResult GetData()
+    public ActionResult GetUserData()
     {
         // ...
     }
@@ -67,6 +67,6 @@ Any method prefixes supplied to the `KebabCaseRouteTokenReplacementActionModelCo
 
 With the above example controller and action method the resulting generated url would be `POST /api/user-registration/new-user-registration`.
 
-Since the second action method `GetData` has a custom action name set by `[ActionName("Test")]`, no kebab-casing is performed on the action method url. The resulting url would be `GET /api/user-registration/Test`
+Since the second action method `GetData` has a custom action name set by `[ActionName("TestIt")]`, no kebab-casing is performed on the action method url. The resulting url would be `GET /api/user-registration/TestIt`
 
-If the `ActionNameAttribute` was not applied the resulting url would be `GET /api/user-registration/data`
+If the `ActionNameAttribute` was not applied the resulting url would be `GET /api/user-registration/user-data`
