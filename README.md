@@ -4,6 +4,8 @@ ASP.NET Core model conventions to turn route tokens into kebab case urls
 
 `dotnet add package Sgw.KebabCaseRouteTokens`
 
+[https://www.nuget.org/packages/Sgw.KebabCaseRouteTokens/](https://www.nuget.org/packages/Sgw.KebabCaseRouteTokens/)
+
 ## Purpose
 
 When you normally use the `Microsoft.AspNetCore.Mvc.RouteAttribute` type to annotate your Controllers and Actions you can use tokens in your route paths.
