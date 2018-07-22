@@ -24,7 +24,7 @@ namespace Sgw.KebabCaseRouteTokens
                 return;
             }
 
-            controllerModel.ControllerName = Kebaberizer.PascalToLowerKebabCase(controllerModel.ControllerName);
+            controllerModel.RouteValues["controller"] = Kebaberizer.PascalToLowerKebabCase(controllerModel.ControllerName);
         }
     }
 }

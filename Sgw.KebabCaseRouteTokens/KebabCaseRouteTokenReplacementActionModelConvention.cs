@@ -46,7 +46,7 @@ namespace Sgw.KebabCaseRouteTokens
                 ? actionMethodName.Substring(methodPrefix.Length)
                 : actionMethodName;
 
-            actionModel.ActionName = Kebaberizer.PascalToLowerKebabCase(actionMethodNameSuffix);
+            actionModel.RouteValues["action"] = Kebaberizer.PascalToLowerKebabCase(actionMethodNameSuffix);
         }
 
 
