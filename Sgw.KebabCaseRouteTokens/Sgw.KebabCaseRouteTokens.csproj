@@ -8,7 +8,7 @@
     <PackageProjectUrl>https://github.com/sgwatgit/kebab-case-route-tokens</PackageProjectUrl>
     <RepositoryUrl>https://github.com/sgwatgit/kebab-case-route-tokens</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>asp.net core</PackageTags>
+    <PackageTags>aspnetcore</PackageTags>
 
     <!-- For Sourcelink https://github.com/dotnet/sourcelink -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
